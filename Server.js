@@ -18,7 +18,7 @@ mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // Allow all origins during testing
 app.use(cors({
-     origin: "http://localhost:3000",
+     origin: "https://ntopo1.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true // Allow cookies if needed
 }));
